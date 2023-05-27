@@ -1,0 +1,18 @@
+1. Package.json is configuration for npm
+2. ~ is used to match the most recent patch version. Tilde ~ notation freezes the major version and minor version. As we know patch updates are bug fixes that’s why we can say ~ notation allows us to automatically accept bug fixes.
+
+Example: The ~1.2.0 will update all the future patch updates. We have to write just ~1.2.0 and all the next patch update dependencies. For example, 1.2.1, 1.2.2, 1.2.5……………1.2.x.
+   Caret (^) notation: It is used for automatically updating the minor updates along with patch updates. 
+
+ Example: The ^1.2.4 will update all the future Minor and patch updates, for example, ^1.2.4 will automatically change the dependency to 1.x.x if any update occurs. 
+
+It records the exact version of every installed dependency, including its sub-dependencies and their versions. The purpose of package-lock. json is to ensure that the same dependencies are installed consistently across different environments, such as development and production environments.
+-- Integrity inside package-lock.json makes sure that whatever is in the local machine during development is the same one that’s deployed.
+
+3. npx means executing a package.
+
+4. While making a production build using parcel we have to remove main key from package.json because it conflicts with parcel.
+
+5. React app is fast because of bundlers, Tree Shaking and compressions done by parcel
+
+6. Transitive Dependencies are dependencies that are required by the packages in package.json
