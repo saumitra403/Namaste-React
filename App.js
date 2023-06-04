@@ -1,17 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//the second empty object are the attributes of a tag
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "This is namaste React"),
-    React.createElement("h2", {}, "Im an h2 tag"),
-  ]),
-  React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "Im an h1 tag"),
-    React.createElement("h2", {}, "Im an h2 tag"),
-  ]),
-]); //ReactElement (Object) => HTML(Browser Understands)
+const heading = React.createElement("h1",{"id": "heading"},"Namaste React")
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+
+//JSX - HTML like syntax
+
+//JSX => Converted to React.createElement - JS Object => HTMLElement(render)
+
+const jsxHeading = (<h1 id="heading">
+            Namaste React using JSX</h1>);
+
+root.render(jsxHeading);
