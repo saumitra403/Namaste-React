@@ -26,3 +26,5 @@ It records the exact version of every installed dependency, including its sub-de
 10. //JSX => Converted to React.createElement - JS Object => HTMLElement(render)
 
 11. Attributes to JSX have to be Camel Case.
+
+12.  Babel takes care of Cross Site Scripting when we insert code through {}
