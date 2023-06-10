@@ -16,3 +16,15 @@ It records the exact version of every installed dependency, including its sub-de
 5. React app is fast because of bundlers, Tree Shaking and compressions done by parcel
 
 6. Transitive Dependencies are dependencies that are required by the packages in package.json
+
+7. npm start = npm run start
+
+8. JSX is different than HTML, its not html inside javascript. It is a HTML like syntax
+
+9. Babel transpiles the jsx code to react code for us.
+
+10. //JSX => Converted to React.createElement - JS Object => HTMLElement(render)
+
+11. Attributes to JSX have to be Camel Case.
+
+12.  Babel takes care of Cross Site Scripting when we insert code through {}
