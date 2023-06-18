@@ -83,3 +83,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(HeadingComponent); Cannot render like this
 
 root.render(<HeadingComponent />);
+
+13. Config driven ui - Ui is driven by config
+
+14. When there are components at same level they need to have unique ids for optimising render cycles.
+
+15. Using index as keys is not recommended and bad practice
