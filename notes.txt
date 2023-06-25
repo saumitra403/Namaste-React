@@ -89,3 +89,15 @@ root.render(<HeadingComponent />);
 14. When there are components at same level they need to have unique ids for optimising render cycles.
 
 15. Using index as keys is not recommended and bad practice
+
+16. Whenever a state variable changes, React will re-render component
+
+17. Reconciliation Algorithm - Also known as React Fiber.
+    In React 16 a new Algorithm came
+          O (res-container)         O
+        / | \                 =>   /|
+        O O  O (3 res cards)      O O (2 cards)
+      Old Virtual DOM           New Virtual DOM
+  Virtual DOM - is a representation of actual DOM (normal JS Object )
+
+* React is fast because of Virtual Dom which is a representation of actual DOM. It uses a diffing algorithm to update the actual DOM.
