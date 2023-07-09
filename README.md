@@ -22,7 +22,6 @@
 
 #Namaste Food
 
-/*
   * Header 
   *  - Logo
   *  - Nav Items
@@ -39,7 +38,7 @@
   *  - Links
   * - Address
   *  - Contact
-*/
+
 
 
 Two Types of Export/Import

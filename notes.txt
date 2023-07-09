@@ -111,3 +111,10 @@ root.render(<HeadingComponent />);
 
 21. React is fast because of virtual dom and the Reconciliation algorithm. The algorithm finds the difference between the Virtual DOM and the actual DOM
 and efficiently updates only the parts that have changed. Thats why react is fast
+
+22. Never create state variables inside conditional statements or loops or a function.
+
+23. if no dependency array => useEffect is called on every render(default behaviour)
+  if dependency array is empty [] => useEffect is called on initial render(just once)
+  if dependency array is [btnNameReact] => useEffect is called everytime btnNameReact is updated
+
