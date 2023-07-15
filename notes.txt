@@ -118,3 +118,5 @@ and efficiently updates only the parts that have changed. Thats why react is fas
   if dependency array is empty [] => useEffect is called on initial render(just once)
   if dependency array is [btnNameReact] => useEffect is called everytime btnNameReact is updated
 
+24. Server Side Routing a network call is made to the server and the server provides a html which is then rendered by the browser.
+    Client Side Routing is when no network call is made and all components are already loaded onto the app.

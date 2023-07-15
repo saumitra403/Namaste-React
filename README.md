@@ -59,4 +59,9 @@ import {Component} from "path"
 # React Hooks
 (Normal JS utility functions)
 - useState() - Superpowerful state variables
-- useEffect() 
+- useEffect()
+
+
+# Routing in Web Apps
+  - Client Side Routing
+  - Server Side Routing 
