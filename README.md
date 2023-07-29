@@ -22,7 +22,6 @@
 
 #Namaste Food
 
-/*
   * Header 
   *  - Logo
   *  - Nav Items
@@ -39,7 +38,7 @@
   *  - Links
   * - Address
   *  - Contact
-*/
+
 
 
 Two Types of Export/Import
@@ -60,4 +59,9 @@ import {Component} from "path"
 # React Hooks
 (Normal JS utility functions)
 - useState() - Superpowerful state variables
-- useEffect() 
+- useEffect()
+
+
+# Routing in Web Apps
+  - Client Side Routing
+  - Server Side Routing 
