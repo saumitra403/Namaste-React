@@ -120,3 +120,36 @@ and efficiently updates only the parts that have changed. Thats why react is fas
 
 24. Server Side Routing a network call is made to the server and the server provides a html which is then rendered by the browser.
     Client Side Routing is when no network call is made and all components are already loaded onto the app.
+
+
+25. In Set State for class components we pass only 1 value and the state object has multiple properties, then only the property/properties 
+passed will be updated. Rest of the properties will be untouched.
+
+25. Constructor is called -> render -> compnentDidMount is Called while instantiating a class 
+
+26. React Optimises our app by batching renders of child component and commit phase as well.
+
+/*
+  - Parent Constructor
+  - Parent Render
+
+    - First Child Constructor
+    - First Child Render
+
+    - Second Child Constructor
+    - Second Child Render
+
+    <Dom Updated in Single Batch>
+
+    - First Child ComponentDidMount
+    - Second Child ComponentDidMount
+  - Parent ComponentDidMount
+*/
+
+27. ComponentDidMount is not equivalent to useEffect. ComponentDidUnmount is use to clean
+up setinterval/settimeout. Similarly from useEffect we can return a function, that function
+will be called whenever the component is umnounted.
+
+28. We do super(props) in constructor if we want to access the properties using this 
+inside the constructor. It doesn't matter if we do super() or super(props) inside 
+constructor if we want to use this outside the constructor.
