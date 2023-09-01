@@ -26,7 +26,7 @@ const Body = () => {
     );
   };
 
-  return listOfRestaurants.length === 0 ? (
+  return listOfRestaurants?.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
@@ -68,6 +68,7 @@ const Body = () => {
           <Link
             key={restaurant?.info.id}
             to={"/restaurant/" + restaurant?.info.id}
+            style={{minHeight: "20%"}}
           >
             <RestaurantCard key={restaurant?.info?.id} resData={restaurant?.info}/>
           </Link>
