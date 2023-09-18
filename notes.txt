@@ -162,3 +162,7 @@ There are three general approaches to code splitting available:
 Entry Points: Manually split code using entry configuration.
 Prevent Duplication: Use Entry dependencies or SplitChunksPlugin to dedupe and split chunks.
 Dynamic Imports: Split code via inline function calls within modules.
+
+30. In use state we can get prev value using by doing this: setState((prev) => prev+1);
+
+31. Tailwind is very lightweight as it only imports the css classes which are used in the project
