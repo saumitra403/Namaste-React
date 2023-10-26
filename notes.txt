@@ -166,3 +166,9 @@ Dynamic Imports: Split code via inline function calls within modules.
 30. In use state we can get prev value using by doing this: setState((prev) => prev+1);
 
 31. Tailwind is very lightweight as it only imports the css classes which are used in the project
+
+32. Higher Order Component(HOC) is a component which takes a component and returns a component. They are pure functions, we wont change behaviour of components inside it
+
+33. If a component controlls its own state then its called uncontrolled component whereas if its parent controls the state then its called controlled component.
+
+34. If we have nested UserContext.Provider then the code will use the context of parent
