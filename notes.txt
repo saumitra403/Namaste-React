@@ -172,3 +172,11 @@ Dynamic Imports: Split code via inline function calls within modules.
 33. If a component controlls its own state then its called uncontrolled component whereas if its parent controls the state then its called controlled component.
 
 34. If we have nested UserContext.Provider then the code will use the context of parent
+
+35. In redux we have logical slices and we cannot directly modify a slice.
+
+36. To Write Data We need to Dispatch an action which will call a function, which will modify the slice of redux store. The function is also known as a reducer. 
+
+37. We use Selector to read data from our store and selector will modify our react component. Using a selector is also called subscribing to a store.
+
+38. Only subscribe to the portion of the store that is needed to optimise performance
