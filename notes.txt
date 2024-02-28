@@ -180,3 +180,5 @@ Dynamic Imports: Split code via inline function calls within modules.
 37. We use Selector to read data from our store and selector will modify our react component. Using a selector is also called subscribing to a store.
 
 38. Only subscribe to the portion of the store that is needed to optimise performance
+
+39. __ __ is known as dunder
